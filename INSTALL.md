@@ -231,14 +231,14 @@ make test
 ```
 <br />
 
-##### Make Runtime
+##### Make Runtest
 ```bash
 make runtest
 ```
 <br />
 
 ###### Probable Error G
-If you had errors with leveldb while runtime as:
+If you had errors with leveldb while runtest as:
 
 > [----------] 1 test from LayerFactoryTest/3, where TypeParam = caffe::GPUDevice<double>  
 [ RUN      ] LayerFactoryTest/3.TestCreateLayer   
@@ -259,7 +259,7 @@ Makefile:523: recipe for target 'runtest' failed
 make: * [runtest] Aborted (core dumped)  
 
 _**Solution:**_  
-Thats not important for this project just abandon it._
+Thats not important for this project just abandon it.
 
 _You could also see [here](https://github.com/ZheC/Realtime_Multi-Person_Pose_Estimation/issues/31)._
 <br />

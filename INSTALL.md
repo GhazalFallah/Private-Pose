@@ -233,7 +233,7 @@ make test
 
 ##### Make Runtime
 ```bash
-make runtime
+make runtest
 ```
 <br />
 
